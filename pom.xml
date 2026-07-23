@@ -9,6 +9,13 @@
     <groupId>org.enthusia</groupId>
     <artifactId>enthusia-teleport</artifactId>
     <version>1.2.6</version>
+
+    <licenses>
+        <license>
+            <name>GNU Affero General Public License v3.0</name>
+            <url>https://www.gnu.org/licenses/agpl-3.0.txt</url>
+        </license>
+    </licenses>
     <packaging>jar</packaging>
 
     <name>EnthusiaTeleport</name>
@@ -37,6 +44,13 @@
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
             <version>${paper.api.version}</version>
+
+    <licenses>
+        <license>
+            <name>GNU Affero General Public License v3.0</name>
+            <url>https://www.gnu.org/licenses/agpl-3.0.txt</url>
+        </license>
+    </licenses>
             <scope>provided</scope>
         </dependency>
     </dependencies>
@@ -49,6 +63,13 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.12.1</version>
+
+    <licenses>
+        <license>
+            <name>GNU Affero General Public License v3.0</name>
+            <url>https://www.gnu.org/licenses/agpl-3.0.txt</url>
+        </license>
+    </licenses>
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
